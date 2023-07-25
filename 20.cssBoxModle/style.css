@@ -1,0 +1,29 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    margin: 0;
+}
+
+#blue{
+    background-color: #525FE1;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+#orange{
+    background-color: #F86F03;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    margin-left: 260px;
+}
+
+#pink{
+    background-color: #E966A0;
+    border: 10px solid black;
+    margin-left: 40px;
+}
