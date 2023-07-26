@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+        }
+        .card{
+            background-color: green;
+            height: 100px;
+            flex: 1;
+            border: 30px solid white;
+        }
+        .first{
+            background-color: red;
+            flex: 2;
+        }
+        .second{
+            background-color: blue;
+            flex: .5;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="first card"></div>
+        <div class="second card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+</html>
